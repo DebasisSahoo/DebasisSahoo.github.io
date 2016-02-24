@@ -18,3 +18,11 @@ $(document).ready(function(){
 	});
 	
 });
+
+$(document).ready(function(){
+  $(".blue").click(function(){
+  	$("#friends_submenu").show();
+    //$("#friends_submenu").slideToggle("slow");
+    
+  });
+});
